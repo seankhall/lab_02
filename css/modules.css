@@ -1,0 +1,21 @@
+#photo-template > * {
+    width: 180px;
+    height: 130px;
+    /* float: left; */
+    border: 2px solid rgb(183, 183, 216);
+    
+}
+footer{
+clear: left;    
+}
+main{
+    margin: 0 auto;
+    width: 960px;
+    
+}
+*{
+    text-align: center;
+}
+img{
+    float: left;
+}
