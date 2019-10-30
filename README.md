@@ -8,11 +8,11 @@ Number and name of feature: Display Images
 
 Estimate of time needed to complete: 2 Hours
 
-Start time: _____
+Start time: 0930
 
-Finish time: _____
+Finish time: 1100
 
-Actual time needed to complete: _____
+Actual time needed to complete: 2 Hours
 
 Feature 2
 
