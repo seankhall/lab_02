@@ -20,11 +20,11 @@ Number and name of feature: Filter Images
 
 Estimate of time needed to complete: 2 Hours
 
-Start time: _____
+Start time: 1200
 
-Finish time: _____
+Finish time: 1300
 
-Actual time needed to complete: _____
+Actual time needed to complete: 1 Hour
 
 Feature 3
 
