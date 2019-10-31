@@ -1,3 +1,26 @@
+
+#photo-template{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+ div{
+width: 250px;
+border: 2px solid rgb(183, 183, 216);
+text-align: center;
+height: 200px;
+
+ } 
+ img{
+    width: 180px;
+    height: 130px;
+    /* float: left; */
+    
+}
+/* footer{
+
 #photo-template > * {
     width: 180px;
     height: 130px;
@@ -6,6 +29,7 @@
     
 }
 footer{
+
 clear: left;    
 }
 main{
