@@ -24,15 +24,27 @@
       </ul>
       <section id="photo-template">
 
-        <!-- <h2></h2>
+        <h2></h2>
         <img src="" alt="">
-        <p></p> -->
+        <p></p>
 
       </section>
     </main>
     <footer>
       &copy; 2018 Code Fellows
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.4.2/handlebars.js"></script>
+
+    <script id="entry-template" type="text/x-handlebars-template">
+      <div class="entry">
+        <!-- <section id="photo-template"> -->
+          <h2>{{title}}</h2>
+          <img src="{{image_url}}" alt="">
+          <p>{{description}}</p>
+        <!-- </section> -->
+      </div>
+    </script>
+    
     <script
         src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
