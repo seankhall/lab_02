@@ -5,7 +5,7 @@ $(document).ready(function() {
     $.get('data/page-1.json')
     .then( hornImg => {
         hornImg.forEach( data => { 
-            $('#photo-template').append(`<div><h2>${data.title}</h2><img src="${data.image_url}"><p>${data.description}</p></div>`);
+            $('#photo-template').append(`<div value="${data.keyword}"><h2>${data.title}</h2><img src="${data.image_url}"><p>${data.description}</p></div>`);
         //     let createImg = $("<img></img>");
         //     createImg.attr('src', `${data.image_url}`);
         //     createImg.attr('value', `${data.keyword}`);
@@ -22,7 +22,7 @@ $(document).ready(function() {
 
 $('select').on('change', function() {
     let selectedValue = $(this).val();
-    $('img').hide();
-    $(`img[value=${selectedValue}]`).show();
+    $('div').hide();
+    $(`div[value=${selectedValue}]`).show();
     console.log(selectedValue);
 });
