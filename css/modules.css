@@ -1,3 +1,4 @@
+
 #photo-template{
     display: flex;
     flex-wrap: wrap;
@@ -19,6 +20,16 @@ height: 200px;
     
 }
 /* footer{
+
+#photo-template > * {
+    width: 180px;
+    height: 130px;
+    /* float: left; */
+    border: 2px solid rgb(183, 183, 216);
+    
+}
+footer{
+
 clear: left;    
 }
 main{
@@ -31,4 +42,4 @@ main{
 }
 img{
     float: left;
-} */
+}
