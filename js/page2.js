@@ -1,3 +1,6 @@
+var source = document.getElementById("entry-template").innerHTML;
+var template = Handlebars.compile(source);
+
 
 $(document).ready(function () {
   $.get('data/page-2.json')
